@@ -1,0 +1,33 @@
+body {
+    background: rgb(102, 153, 204);
+    background: linear-gradient(to right, rgba(102, 153, 204, 1) 0%, rgba(159, 191, 223, 1) 100%);
+}
+
+h1,
+h2,
+h3 {
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h3 {
+    text-align: left;
+}
+
+img {
+    display: block;
+    margin-left: 10px;
+    margin-right: auto;
+}
+
+ul>li, ol>li {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    padding: 10px;
+    color: white;
+}
+
+a {
+    color: white;
+}
