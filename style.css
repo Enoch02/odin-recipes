@@ -17,8 +17,9 @@ h3 {
 
 img {
     display: block;
-    margin-left: 10px;
+    margin-left: auto;
     margin-right: auto;
+    width: 50%;
 }
 
 ul>li, ol>li {
@@ -28,6 +29,19 @@ ul>li, ol>li {
     color: white;
 }
 
+.recipes>li {
+    text-align: center;
+}
+
 a {
     color: white;
+}
+
+.recipe-link {
+    margin: 20px;
+    background-color: rgb(114, 25, 90);
+}
+
+.recipes>li:hover {
+    background-color: aqua;
 }
